@@ -14,9 +14,9 @@ eureka:
 spring:
   cloud:
     config:
-      server:
+       server:
         git:
-          uri: https://github.com/zhangxd1989/spring-boot-cloud
+          uri: https://github.com/zzc1008/SpringcloudDemo/tree/master/spring-boot-cloud-master
           search-paths: config-repo
   rabbitmq:
     host: rabbitmq
