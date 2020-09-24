@@ -16,7 +16,7 @@ eureka:
 
 spring:
   datasource:
-    url: jdbc:h2:mem:user
+    url: jdbc:h2:~/test
     driver-class-name: org.h2.Driver
   jpa:
     show-sql: true
