@@ -3,7 +3,7 @@ eureka:
     hostname: localhost
   client:
     service-url:
-      defaultZone: http://user:${REGISTRY_SERVER_PASSWORD:password}@${eureka.instance.hostname}:8761/eureka/
+      defaultZone: http://user:${REGISTRY_SERVER_PASSWORD:user}@${eureka.instance.hostname}:8761/eureka/
 
 hystrix:
   command:
