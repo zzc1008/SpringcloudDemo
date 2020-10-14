@@ -14,10 +14,3 @@ security:
   user:
     name: user
     password: user
-  oauth2:
-    client:
-      clientId: svca-service
-      clientSecret: ${security.user.password}
-      accessTokenUri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/oauth/token
-      grant-type: client_credentials
-      scope: server
